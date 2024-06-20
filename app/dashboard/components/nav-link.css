@@ -1,0 +1,13 @@
+.link-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.link-area a {
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+  text-decoration: none;
+}

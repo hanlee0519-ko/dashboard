@@ -1,0 +1,10 @@
+.dashboard-container {
+  background-color: darkkhaki;
+  height: 100vh;
+  display: flex;
+}
+
+.nav-area {
+  background-color: gray;
+  width: 250px;
+}
