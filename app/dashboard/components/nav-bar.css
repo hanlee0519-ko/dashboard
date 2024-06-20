@@ -10,8 +10,7 @@
   background-color: darkorange;
   margin-bottom: 100px;
   height: 70%;
-  display: flex;
-  justify-content: center;
+  padding: 20px;
 }
 
 .navbar-logout {

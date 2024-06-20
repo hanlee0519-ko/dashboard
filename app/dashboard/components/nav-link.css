@@ -6,8 +6,17 @@
 }
 
 .link-area a {
-  color: white;
   font-size: larger;
-  font-weight: 600;
   text-decoration: none;
+}
+
+.link-active {
+  background-color: darkgray;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+.link-inActive {
+  color: white;
 }

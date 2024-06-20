@@ -1,7 +1,12 @@
 .dashboard-container {
-  background-color: darkkhaki;
   height: 100vh;
   display: flex;
+}
+
+.main-area {
+  background-color: darkkhaki;
+  width: 100vw;
+  padding: 20px;
 }
 
 .nav-area {
