@@ -1,5 +1,5 @@
-import Navbar from './components/nav-bar';
-import './style.css';
+import Navbar from "./components/nav-bar";
+import "./style.css";
 
 export default function DashboardLayout({
   children,
@@ -7,11 +7,11 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   return (
-    <section className="dashboard-container">
-      <nav className="nav-area">
+    <div className="dashboard-container">
+      <div className="nav-area">
         <Navbar />
-      </nav>
-      <main className="main-area">{children}</main>
-    </section>
+      </div>
+      <div className="main-area">{children}</div>
+    </div>
   );
 }
