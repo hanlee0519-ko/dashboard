@@ -1,0 +1,50 @@
+.chart-container {
+  width: 100%;
+}
+
+.chart-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.label-container {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: repeat(13, minmax(0, 1fr));
+  align-items: flex-end;
+  gap: 6px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.label-area {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.month-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.month-area {
+  width: 50%;
+  background-color: darkgreen;
+}
+
+.last-months-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.last-months-icon {
+  height: 20px;
+  width: 20px;
+}
