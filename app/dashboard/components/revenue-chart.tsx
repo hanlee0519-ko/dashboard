@@ -17,7 +17,7 @@ export default async function RevenueChart({
 
   return (
     <div className="chart-container">
-      <h2 className="chart-title">Recent Revenue</h2>
+      <h2>Recent Revenue</h2>
       <div>
         <div className="label-container">
           <div className="label-area" style={{ height: `${chartHeight}px` }}>

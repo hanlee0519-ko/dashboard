@@ -1,15 +1,28 @@
 .dashboard-container {
   height: 100vh;
   display: flex;
-}
-
-.main-area {
-  background-color: darkkhaki;
-  width: 100vw;
-  padding: 20px;
+  flex-direction: row;
+  overflow: hidden;
 }
 
 .nav-area {
   background-color: gray;
   width: 250px;
+}
+
+.main-area {
+  background-color: darkkhaki;
+  padding: 24px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.card-area {
+  display: grid;
+  gap: 24px;
+}
+
+.chart-area {
+  display: flex;
+  gap: 24px;
 }
